@@ -1,0 +1,154 @@
+div.wpforms-container-full {
+    .wpforms-form {
+        .wpforms-field-container {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+
+            .wpforms-field-label {
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            .wpforms-field {
+                padding-left: 15px;
+                padding-right: 15px;
+
+                select,
+                input[type=radio],
+                input[type=checkbox] {
+                    opacity: 1 !important;
+                }
+
+                input,
+                select {
+                    background: transparent !important;
+                    border: none !important;
+                    border-bottom: 1px solid #9c9b9b !important;
+                }
+
+                .wpforms-field-label {
+                    position: absolute;
+                    top: 25px;
+                    left: 25px;
+                    -webkit-transition: .2s ease-out;
+                    -o-transition: .2s ease-out;
+                    transition: .2s ease-out;
+                    cursor: text;
+                    color: #757575;
+                }
+
+                .wpforms-error {
+                    position: static !important;
+                    -webkit-transform: translateY(0%) !important;
+                    -ms-transform: translateY(0%) !important;
+                    transform: translateY(0%) !important;
+                }
+
+                textarea {
+                    background: transparent !important;
+                    margin-top: 10px !important;
+                }
+
+                select {
+                    display: block !important;
+                }
+
+                .wpforms-field-row {
+                    .wpforms-one-half {
+                        width: 50%;
+                        padding-left: 15px;
+                        margin-left: 0px;
+                    }
+
+                    .wpforms-first {
+                        padding-left: 0px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+
+            .md-form {
+                position: relative !important;
+                margin-top: 0.9rem !important;
+            }
+
+            .wpforms-field-number-slider {
+                .thumb {
+                    display: none;
+                }
+            }
+        }
+
+        .wpforms-submit-container {
+            text-align: center;
+
+            .wpforms-submit {
+                @extend .custom-btn;
+                background-color: transparent !important;
+                color: black !important;
+                padding: 10px 35px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.contact-bg {
+    @include background-overlay("../../images/contact/Kingsmill-Wareham's-Pond.jpg", center center, 255, 255, 255, 0.8);
+}
+
+.contact-yellow-bg {
+    background-color: $l-yellow;
+
+    div.wpforms-container-full {
+        .wpforms-form {
+            .wpforms-submit-container {
+                .wpforms-submit {
+                    background-color: $green !important;
+                    color: white !important;
+                }
+            }
+        }
+    }
+}
+
+.contact-green-bg {
+    background-color: $l-green;
+
+    div.wpforms-container-full {
+        .wpforms-form {
+            .wpforms-submit-container {
+                .wpforms-submit {
+                    background-color: $green !important;
+                    color: white !important;
+                }
+            }
+        }
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    div.wpforms-container-full .wpforms-form .wpforms-field {
+        width: 100%;
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

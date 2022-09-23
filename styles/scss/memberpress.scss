@@ -1,0 +1,125 @@
+.krr_memberpress {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include background-overlay("../../images/memberpress/Family-on-Dock.jpg", center center, 255, 255, 255, 0.8);
+
+    .mepr_password {
+        position: relative;
+
+        .mepr-login-actions {
+            position: absolute;
+            right: 0px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 1;
+            top: 10px;
+
+            a {
+                color: $blue;
+            }
+        }
+    }
+}
+
+.mp_wrapper {
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+
+    input[type=checkbox],
+    input[type=radio] {
+        opacity: 1;
+        position: static;
+    }
+
+    .mepr-submit {
+        -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        color: #fff;
+        font-weight: 700;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 5px;
+        font-size: 14.5px;
+        letter-spacing: 1px;
+
+        background-color: $blue !important;
+        padding: 11px 40px;
+        min-width: 150px;
+        border: none;
+    }
+}
+
+
+.memberpress-account-section {
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.memberpress-account-container {
+    border: 1px solid #D8D8D8;
+    padding: 0px;
+
+    .mp_wrapper {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .entry-content {
+        display: flex;
+        flex: wrap;
+        .mp_wrapper:last-child {
+            border-left: 1px solid #D8D8D8;
+            // -ms-flex: 0 0 75%;
+            // flex: 0 0 75%;
+            // max-width: 75%;
+            -ms-flex-positive: 1 !important;
+            flex-grow: 1 !important;
+            padding: 30px 50px;
+        }
+        .mp_wrapper:nth-child(1) {
+            border: none;
+        }
+    }
+
+    .krr_memberpress_nav {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+
+        #mepr-account-nav {
+            .mepr-nav-item {
+                display: block;
+                border-left: 3px solid white;
+
+                a {
+                    color: black;
+                    display: block;
+                    padding: 20px 25px;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .mepr-active-nav-tab {
+                border-left: 3px solid $blue;
+            }
+        }
+    }
+
+    .krr_memberpress {
+        background: none;
+    }
+}
+
+.mepr_error {
+    margin: 0 !important;
+}

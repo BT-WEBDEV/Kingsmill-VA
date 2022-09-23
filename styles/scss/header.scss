@@ -1,0 +1,771 @@
+.admin-bar {
+	.custom-navbar {
+		top: 32px;
+	}
+}
+
+.custom-navbar {
+	padding: 40px 15px 2px 15px;
+	box-shadow: none;
+
+	.container-fluid {
+		display: block;
+		text-align: center;
+	}
+
+	.navbar-brand {
+		margin: 0px;
+		text-align: center;
+	}
+
+	.logo {
+		width: 115px;
+		@include transition(all 0.5s ease);
+	}
+
+	.resort_logo {
+		width: 115px;
+		// width: 180px;
+	}
+
+	.navbar-nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.nav-item {
+		margin: 0 7px;
+
+		.nav-link {
+			color: white;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 15px;
+			letter-spacing: 1px;
+			@include transition(all 0.5s ease);
+			white-space: nowrap;
+		}
+	}
+
+	.nav-item .nav-link {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+
+		span {
+			position: relative;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+		}
+
+		span:before {
+			content: "";
+			position: absolute;
+			height: 3px;
+			background-color: $yellow;
+			bottom: 3px;
+			left: 0rem;
+			z-index: 99;
+			width: 0px;
+			@include transition(all 0.5s ease);
+		}
+	}
+
+	.nav-item .nav-link:hover span {
+		&:before {
+			width: calc(100%);
+		}
+	}
+
+	.nav-item.active a span {
+		&:before {
+			width: calc(100%);
+		}
+	}
+
+	.dropdown-toggle::after {
+		border: none;
+		background-image: url(../../images/icons/chevron-down.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 14px;
+		height: 8px;
+		vertical-align: 1px;
+		margin-left: 7px;
+	}
+
+	.dropdown {
+		.nav-link:hover {
+			color: white;
+		}
+	}
+
+	.dropdown .dropdown-menu.dropdown-primary .dropdown-item.active,
+	.dropdown .dropdown-menu.dropdown-primary .dropdown-item:active,
+	.dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover,
+	.dropleft .dropdown-menu.dropdown-primary .dropdown-item.active,
+	.dropleft .dropdown-menu.dropdown-primary .dropdown-item:active,
+	.dropleft .dropdown-menu.dropdown-primary .dropdown-item:hover,
+	.dropright .dropdown-menu.dropdown-primary .dropdown-item.active,
+	.dropright .dropdown-menu.dropdown-primary .dropdown-item:active,
+	.dropright .dropdown-menu.dropdown-primary .dropdown-item:hover,
+	.dropup .dropdown-menu.dropdown-primary .dropdown-item.active,
+	.dropup .dropdown-menu.dropdown-primary .dropdown-item:active,
+	.dropup .dropdown-menu.dropdown-primary .dropdown-item:hover {
+		background-color: $yellow !important;
+		color: black !important;
+	}
+
+	.hover-dropdown:hover .dropdown-menu {
+		display: block;
+	}
+
+	#secondary-nav {
+		position: absolute;
+		padding: 0px 30px;
+		width: 100%;
+		left: 0;
+		right: 0px;
+		top: 0px;
+		background-color: $green;
+		text-align: right;
+
+		.dropdown-toggle::after {
+			width: 12px;
+			height: 12px;
+			vertical-align: -4px;
+			margin-left: 5px;
+		}
+
+		.nav-item {
+			margin: 0px;
+			margin-right: 35px;
+
+			.nav-link {
+				padding: 0px;
+				margin: 0px;
+				font-size: 13.5px;
+
+				span {
+					padding-top: 0.5rem;
+					padding-bottom: 0.5rem;
+				}
+
+				span:before {
+					height: 3px;
+					bottom: 3px;
+				}
+			}
+		}
+
+		.nav-link,
+		.custom-link {
+			color: white;
+			margin-left: 25px;
+			padding-top: 4px !important;
+			padding-bottom: 4px !important;
+
+			img {
+				height: 14px;
+				vertical-align: middle;
+				margin-top: -1px;
+			}
+		}
+
+		.phone {
+			letter-spacing: 1px;
+		}
+
+		.nav-item .nav-link:hover {
+			&:before {
+				width: 0;
+			}
+		}
+
+		.nav-item.active a {
+			&:before {
+				width: 0;
+			}
+		}
+	}
+
+	#secondary-nav-mobile {
+		display: none;
+	}
+
+	#login {
+		position: absolute;
+		right: 30px;
+		top: 55px;
+
+		.custom-btn {
+			background: transparent;
+			border: 2px solid #fff;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			line-height: 1.5;
+			margin: 0;
+			padding: 7px 20px;
+			transition: all .5s ease;
+		}
+
+		.custom-btn:hover {
+			background: #f7c636; 
+		}
+	}
+
+	#book-now {
+		position: absolute;
+		right: 180px;
+		top: 50px;
+
+		.custom-btn {
+			border: 2px solid white;
+			color: white;
+			background-color: transparent;
+			font-size: 15px;
+			font-weight: 700;
+			padding: 7px 20px;
+			letter-spacing: 1px;
+			font-family: 'Mulish', sans-serif;
+			@include transition(all 0.5s ease);
+		}
+	}
+
+	.ft-booking-button-app {
+		position: absolute;
+		top: 55px;
+		right: 30px;
+
+		.ft-btn {
+			background: transparent;
+			border: 2px solid white;
+			color: white;
+			border-radius: 5px;
+			font-weight: 700;
+			padding: 7px 20px;
+			letter-spacing: 1px;
+			line-height: 1.5;
+			font-size: 12px;
+			margin: 0px;
+			@include transition(all 0.5s ease);
+		}
+	}
+}
+
+.shrink {
+	background-color: rgba($color: #000000, $alpha: 0.8);
+
+	.logo {
+		width: 75px;
+	}
+
+	.nav-item {
+		.nav-link {
+			font-size: 14px;
+		}
+	}
+
+	#book-now {
+		.custom-btn {
+			font-size: 12px;
+		}
+	}
+
+	.ft-booking-button-app {
+		.ft-btn {
+			font-size: 11px;
+		}
+	}
+}
+
+.header-blue {
+	#secondary-nav {
+		background-color: $blue;
+	}
+}
+
+.static-booknow {
+	.ft-booking-button-app .ft-btn {
+		position: static !important;
+	}
+}
+
+
+// Mobile
+@media (max-width: $screen-sm) {
+	.admin-bar {
+		.custom-navbar {
+			top: 46px;
+		}
+	}
+}
+
+@media (max-width: $screen-md) {
+
+	// Navigation slide from Left
+	.custom-navbar {
+		.navbar-collapse {
+			position: fixed;
+			top: 0px;
+			left: 0;
+			width: 90%;
+			height: 100%;
+		}
+
+		.navbar-collapse.collapsing {
+			left: -75%;
+			transition: height 0s ease;
+		}
+
+		.navbar-collapse.show {
+			left: 0;
+			transition: left 300ms ease-in-out;
+		}
+
+		.navbar-toggler.collapsed~.navbar-collapse {
+			transition: left 500ms ease-in-out;
+		}
+
+		.navbar-brand,
+		.navbar-toggler {
+			z-index: 1;
+		}
+	}
+
+	// Navigation
+
+	#main-nav {
+		overflow-y: scroll;
+	}
+
+	.custom-navbar {
+		padding-top: 30px;
+		padding-bottom: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+		@include transition(all 0.5s ease);
+
+		.container-fluid {
+			display: flex;
+			text-align: left;
+		}
+
+		.mobile-col {
+			-ms-flex: 0 0 33.333333%;
+			flex: 0 0 33.333333%;
+			max-width: 33.333333%;
+		}
+
+		.navbar-toggler {
+			padding: 0px;
+			padding-left: 15px;
+			text-align: left;
+
+			.hamburger-wrap {
+				background-color: rgba($color: #000000, $alpha: 0.5);
+				display: inline-block;
+				padding: 8px 6px 9px 6px;
+				border-radius: 5px;
+			}
+
+			.animated-icon3 {
+				span {
+					background-color: white;
+					height: 3px;
+				}
+			}
+		}
+
+		.navbar-collapse {
+			padding-top: 140px;
+			background-color: white;
+		}
+
+		.logo {
+			width: 65px;
+		}
+
+		.resort_logo {
+			// width: 100px;
+			width: 65px;
+		}
+
+		.nav-item {
+			// background-color: rgba($color: $yellow, $alpha: 0.4);
+			margin: 0;
+			padding: 3px 15px;
+			border-top: 1px solid rgba($color: black, $alpha: 0.2);
+
+			.nav-link {
+				color: $green;
+				letter-spacing: 0;
+				font-size: 14px;
+			}
+		}
+
+		.nav-item:last-child {
+			border-bottom: 1px solid rgba($color: black, $alpha: 0.2);
+		}
+
+		.nav-item {
+			.dropdown-toggle:after {
+				position: absolute;
+				@include vertical-align("absolute", 50%);
+				right: 0px;
+				background-image: url("../../images/icons/chevron-down-green.svg");
+			}
+		}
+
+		.dropdown {
+			.nav-link:hover {
+				color: $green;
+			}
+		}
+
+		.dropdown-menu {
+			position: static !important;
+			border: none;
+		}
+
+		#secondary-nav {
+			// display: none;
+			padding: 0 15px;
+			z-index: 20;
+
+			.custom-link {
+				font-size: 12px;
+				letter-spacing: 0;
+				margin-left: 15px;
+
+				img {
+					width: 10px;
+				}
+			}
+
+			#parent-nav {
+				display: none;
+			}
+		}
+
+		#secondary-nav-mobile {
+			display: block;
+			height: 100%;
+			margin-top: 30px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 30px;
+
+			background-color: $l-yellow;
+
+			.nav-item {
+				border: none;
+
+				.nav-link {
+					padding: 2px 15px;
+					font-size: 14px;
+				}
+			}
+		}
+
+		#login {
+			padding-right: 15px;
+			position: static;
+			text-align: right; 
+
+			.custom-btn {
+				background-color: rgba(0,0,0,.5);
+				font-size: 8px;
+				padding: 7px 8px;
+				position: static;
+			}
+		}
+
+		#book-now {
+			position: static;
+			text-align: right;
+			padding-right: 15px;
+
+			.custom-btn {
+				font-size: 8px;
+				padding: 7px 8px;
+				background-color: rgba($color: black, $alpha: 0.5);
+
+				span {
+					display: none;
+				}
+			}
+		}
+
+		ft-booking-button {
+			order: 3;
+			flex: 0 0 33.333333%;
+			max-width: 33.333333%;
+			text-align: right;
+		}
+
+		.ft-booking-button-app {
+			position: static;
+			padding-right: 15px;
+
+			.ft-btn {
+				position: static;
+				font-size: 8px;
+				padding: 7px 8px;
+				background-color: rgba($color: black, $alpha: 0.5);
+			}
+		}
+	}
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+	.custom-navbar {
+
+		.logo {
+			width: 95px;
+		}
+
+		.resort_logo {
+			// width: 120px;
+			width: 95px;
+		}
+
+		.nav-item {
+			margin: 0 5px;
+
+			.nav-link {
+				font-size: 13px;
+			}
+		}
+
+		#secondary-nav {
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}
+
+// Custom Size for Secondary Nav
+@media (min-width: 992px) and (max-width: 1174px) {
+	.custom-navbar {
+		#secondary-nav {
+			.nav-link {
+				font-size: 9.5px !important; 
+			}
+		}
+	}
+}
+
+/* Skip to main content */
+a.skip-main {
+	left: -999px;
+	position: absolute;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active {
+	color: #fff;
+	background-color: #000;
+	left: auto;
+	top: auto;
+	width: 30%;
+	height: auto;
+	overflow: auto;
+	margin: 10px 35%;
+	padding: 5px;
+	border-radius: 15px;
+	border: 4px solid yellow;
+	text-align: center;
+	font-size: 1.2em;
+	z-index: 999;
+}
+
+/* Icon 1 */
+.animated-icon1,
+.animated-icon2,
+.animated-icon3 {
+	width: 30px;
+	height: 20px;
+	position: relative;
+	margin: 0px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+.animated-icon1 span,
+.animated-icon2 span,
+.animated-icon3 span {
+	display: block;
+	position: absolute;
+	height: 3px;
+	width: 100%;
+	border-radius: 9px;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+	background: #e65100;
+}
+
+.animated-icon2 span {
+	background: #e3f2fd;
+}
+
+.animated-icon3 span {
+	background: black;
+}
+
+.animated-icon1 span:nth-child(1) {
+	top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+	top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+	top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+	top: 11px;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+	opacity: 0;
+	left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+	top: 11px;
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+/* Icon 3*/
+
+.animated-icon2 span:nth-child(1) {
+	top: 0px;
+}
+
+.animated-icon2 span:nth-child(2),
+.animated-icon2 span:nth-child(3) {
+	top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+	top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+	top: 11px;
+	width: 0%;
+	left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+	top: 11px;
+	width: 0%;
+	left: 50%;
+}
+
+/* Icon 3 */
+
+.animated-icon3 span:nth-child(1) {
+	top: 0px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) {
+	top: 9px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+	top: 18px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: -1px;
+	left: 4px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+	width: 0%;
+	opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 20px;
+	left: 4px;
+}

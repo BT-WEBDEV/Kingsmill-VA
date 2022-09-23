@@ -1,0 +1,149 @@
+.single-package-info {
+    background-color: rgba($color: #035644, $alpha: 0.15);
+    padding-bottom: 40px;
+
+    .image {
+        height: 470px;
+    }
+
+    .mask {
+        padding: 20px;
+        color: white;
+
+        .custom-btn {
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+    }
+
+    .or-call {
+        font-size: 13px;
+    }
+
+    .content {
+        padding: 40px 30px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10px, rgba($color: #035644, $alpha: .3) 10px);
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $green;
+        }
+
+        .links {
+            color: $green;
+            font-weight: bold;
+            text-decoration: underline;
+            font-size: 16px;
+
+            img {
+                margin-left: 10px;
+                width: 25px;
+            }
+        }
+        .card-body p {
+            margin-bottom: 5px;
+        }
+    }
+
+    .logo {
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        img {
+            height: 75px;
+            margin-left: 20px;
+            width: auto;
+        }
+    }
+
+    .disclaimer {
+        padding: 30px;
+        font-size: 11px;
+    }
+
+    .disclaimer-wrap {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30px, rgba($color: #035644, $alpha: .3) 30px);
+    }
+
+    .left-col {
+        -ms-flex: 0 0 250px;
+        flex: 0 0 250px;
+        max-width: 250px;
+    }
+    .image-wrap {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 30px, rgba($color: #035644, $alpha: .3) 30px);
+    }
+
+    .right-col {
+        -ms-flex: 0 0 calc(100% - 250px);
+        flex: 0 0 calc(100% - 250px);
+        max-width: calc(100% - 250px);
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    .single-package-info {
+        .left-col {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .right-col {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .image-wrap {
+            padding-right: 30px;
+            background: linear-gradient(180deg, rgba($color: #035644, $alpha: 0) 0%, rgba($color: #035644, $alpha: 0) 20px, rgba($color: #035644, $alpha: .3) 20px);
+        }
+
+        .image {
+            height: 370px;
+        }
+
+        .content {
+            padding: 20px 20px;
+            padding-left: 40px;
+            background: linear-gradient(90deg, rgba($color: #035644, $alpha: 0) 0%, rgba($color: #035644, $alpha: 0) 15px, rgba($color: #035644, $alpha: .3) 15px);
+        }
+
+        .logo {
+            padding-left: 0px;
+
+            img {
+                height: 55px;
+                margin-left: 0px;
+                margin-right: 20px;
+                width: auto;
+            }
+        }
+
+        .disclaimer {
+            padding: 20px 0;
+            padding-right: 15px;
+        }
+
+        .disclaimer-wrap {
+            padding-left: 40px;
+            background: linear-gradient(90deg, rgba($color: #035644, $alpha: 0) 0%, rgba($color: #035644, $alpha: 0) 15px, rgba($color: #035644, $alpha: .3) 15px);
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

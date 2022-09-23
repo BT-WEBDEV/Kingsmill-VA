@@ -1,0 +1,289 @@
+// Template 1
+.gka-theme-page-list-template-1 {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba($color: $l-yellow, $alpha: 1) 0%, rgba($color: $l-yellow, $alpha: 1) 90%, rgba($color: white, $alpha: 1) 90%, rgba($color: white, $alpha: 1) 100%);
+
+    .swiper-slide {
+        width: 450px;
+    }
+
+    .page-list {
+        margin: 5px;
+
+        .image {
+            height: 530px;
+        }
+
+        .caption {
+            height: auto;
+            top: auto;
+            background: black;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            width: auto;
+            color: white;
+
+            .content {
+                margin: 10px;
+                padding: 15px 10px 15px 20px;
+                border: 1px solid $yellow;
+
+                h3 {
+                    margin-bottom: 5px;
+                }
+
+                .arrow {
+                    max-width: 16px;
+                    width: 16px;
+                }
+            }
+        }
+
+    }
+
+    .control-wrap {
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            padding-right: 100px;
+        }
+    }
+}
+
+// Template 2
+.gka-theme-page-list-template-2 {
+    .page-list {
+        margin-bottom: 30px;
+
+        .image {
+            height: 300px;
+        }
+
+        .content {
+            padding-top: 10px;
+        }
+    }
+}
+
+// Template 3
+.gka-theme-page-list-template-3 {
+    .page-list {
+        margin-bottom: 30px;
+
+        .image {
+            height: 450px;
+        }
+
+        .caption {
+            height: 100px;
+            top: auto;
+            background: rgb(0, 0, 0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+            display: flex;
+            align-items: flex-end;
+
+            .content {
+                padding: 15px;
+                color: white;
+            }
+        }
+    }
+}
+
+// Template 4
+.gka-theme-page-list-template-4 {
+    .page-list {
+        background-color: black;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: white;
+
+        .content {
+            border: 1px solid $yellow;
+            padding: 15px;
+        }
+
+        .custom-btn {
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+    }
+}
+
+// Template 5
+.gka-theme-page-list-template-5 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba($color: $l-yellow, $alpha: 1) 0%, rgba($color: $l-yellow, $alpha: 1) 75%, rgba($color: white, $alpha: 1) 75%, rgba($color: white, $alpha: 1) 100%);
+
+    .page-list {
+        margin: 5px;
+
+        .image {
+            height: 570px;
+        }
+
+        .caption {
+            height: auto;
+            top: auto;
+            background: black;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            width: auto;
+            color: white;
+
+            .content {
+                margin: 10px;
+                padding: 15px 10px 15px 20px;
+                border: 1px solid $yellow;
+            }
+        }
+
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+
+    // Template 1
+    .gka-theme-page-list-template-1 {
+        margin-top: 30px;
+        padding-bottom: 30px;
+
+        .swiper-slide {
+            width: 100%;
+        }
+
+        .page-list {
+            .image {
+                height: 400px;
+            }
+
+            .caption {
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+
+                .content {
+                    margin: 5px;
+                    padding: 10px 10px 10px 10px;
+                }
+            }
+        }
+
+        .control-wrap {
+
+            .swiper-button-next,
+            .swiper-button-prev {
+                padding-right: 15px;
+            }
+        }
+    }
+
+    // Template 3
+    .gka-theme-page-list-template-3 {
+        .page-list {
+            .image {
+                height: 400px;
+            }
+        }
+    }
+
+    // Template 5
+    .gka-theme-page-list-template-5 {
+        .page-list {
+            .image {
+                height: 420px;
+            }
+
+            .caption {
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+            }
+        }
+    }
+
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+
+    // Template 1
+    .gka-theme-page-list-template-1 {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    // Template 2
+    .gka-theme-page-list-template-2 {
+        .page-list {
+            .image {
+                height: 250px;
+            }
+        }
+    }
+
+    // Template 3
+    .gka-theme-page-list-template-3 {
+        .page-list {
+            .image {
+                height: 320px;
+            }
+        }
+    }
+
+    // Template 5
+    .gka-theme-page-list-template-5 {
+        .page-list {
+            .image {
+                height: 480px;
+            }
+
+            .caption {
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+            }
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+
+    // Template 3
+    .gka-theme-page-list-template-3 {
+        .page-list {
+            .image {
+                height: 400px;
+            }
+        }
+    }
+
+    // Template 5
+    .gka-theme-page-list-template-5 {
+        .page-list {
+            .image {
+                height: 500px;
+            }
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+
+    // Template 5
+    .gka-theme-page-list-template-5 {
+        .page-list {
+            .image {
+                height: 500px;
+            }
+        }
+    }
+}

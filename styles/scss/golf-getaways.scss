@@ -1,0 +1,52 @@
+.golf-package-list {
+    margin-bottom: 15px;
+    .image {
+        height: 530px;
+    }
+    .content {
+        padding: 20px;
+        color: white;
+    }
+    p {
+        font-size: 12px;
+    }
+    .learn-more {
+        font-size: 12px;
+    }
+    .custom-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    .golf-package-list {
+        .image {
+            height: 470px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .golf-package-list {
+        .image {
+            height: 460px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    .golf-package-list {
+        .image {
+            height: 460px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

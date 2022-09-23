@@ -1,0 +1,33 @@
+.video-course-list {
+    .content {
+        padding-top: 7px;
+        .desc {
+            font-size: 14px;
+        }
+    }
+}
+
+.faq-accordion {
+    .card {
+        border-bottom: 1px solid $green;
+    }
+
+    .card-col:first-child {
+        .card {
+            border-top: 1px solid $green;
+        }
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+
+        i,
+        .type {
+            color: $green;
+            font-weight: bold;
+        }
+    }
+}

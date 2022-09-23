@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="Group_1891" data-name="Group 1891" transform="translate(-393 -3515.276)">
+    <g id="Rectangle_2026" data-name="Rectangle 2026" transform="translate(393 3524.276)" fill="#fff" stroke="#035644" stroke-width="2">
+      <rect width="26" height="26" stroke="none"/>
+      <rect x="1" y="1" width="24" height="24" fill="none"/>
+    </g>
+    <g id="Group_1889" data-name="Group 1889" transform="translate(393 3515)">
+      <path id="Path_2691" data-name="Path 2691" d="M-185.965,11098.848h19.224" transform="translate(189.755 -11095.071)" fill="none" stroke="#035644" stroke-width="2"/>
+      <g id="Polygon_51" data-name="Polygon 51" transform="translate(0 7.276) rotate(-90)" fill="#035644">
+        <path d="M 6.039669036865234 4.5 L 0.9603310227394104 4.5 L 3.5 0.8719014525413513 L 6.039669036865234 4.5 Z" stroke="none"/>
+        <path d="M 3.5 1.743788480758667 L 1.920651912689209 4 L 5.079348087310791 4 L 3.5 1.743788480758667 M 3.5 0 L 7 5 L 0 5 L 3.5 0 Z" stroke="none" fill="#035644"/>
+      </g>
+      <g id="Polygon_52" data-name="Polygon 52" transform="translate(26 0.276) rotate(90)" fill="#035644">
+        <path d="M 6.129478454589844 5.5 L 0.8705216646194458 5.5 L 3.5 0.9923228621482849 L 6.129478454589844 5.5 Z" stroke="none"/>
+        <path d="M 3.5 1.984635829925537 L 1.741037368774414 5 L 5.258962631225586 5 L 3.5 1.984635829925537 M 3.5 0 L 7 6 L 0 6 L 3.5 0 Z" stroke="none" fill="#035644"/>
+      </g>
+    </g>
+    <g id="Group_1890" data-name="Group 1890" transform="translate(428.276 3524.498) rotate(90)">
+      <path id="Path_2691-2" data-name="Path 2691" d="M0,0H17.587" transform="translate(5.427 3.775)" fill="none" stroke="#035644" stroke-width="2"/>
+      <g id="Polygon_51-2" data-name="Polygon 51" transform="translate(-0.221 7.276) rotate(-90)" fill="#035644">
+        <path d="M 6.129478454589844 5.5 L 0.8705216646194458 5.5 L 3.5 0.9923228621482849 L 6.129478454589844 5.5 Z" stroke="none"/>
+        <path d="M 3.5 1.984635829925537 L 1.741037368774414 5 L 5.258962631225586 5 L 3.5 1.984635829925537 M 3.5 0 L 7 6 L 0 6 L 3.5 0 Z" stroke="none" fill="#035644"/>
+      </g>
+      <g id="Polygon_52-2" data-name="Polygon 52" transform="translate(25.779 0.276) rotate(90)" fill="#035644">
+        <path d="M 6.039669036865234 4.5 L 0.9603310227394104 4.5 L 3.5 0.8719014525413513 L 6.039669036865234 4.5 Z" stroke="none"/>
+        <path d="M 3.5 1.743788480758667 L 1.920651912689209 4 L 5.079348087310791 4 L 3.5 1.743788480758667 M 3.5 0 L 7 5 L 0 5 L 3.5 0 Z" stroke="none" fill="#035644"/>
+      </g>
+    </g>
+  </g>
+</svg>

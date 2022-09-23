@@ -1,0 +1,60 @@
+.accommodation-list-section {
+    background-image: url(../../images/accommodations/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.accommodation-list {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    .image-wrap {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba($color: #035644, $alpha: 0.2) 50%);
+    }
+    .image-wrap-reverse {
+        background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba($color: #035644, $alpha: 0.2) 50%);
+    }
+    .image {
+        position: relative;
+        top: -50px;
+    }
+
+    .content {
+        background-color: rgba($color: #035644, $alpha: 0.2);
+        padding: 30px 40px 40px 40px;
+        height: 100%;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+
+    .accommodation-list-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .accommodation-list {
+        padding-top: 0px;
+        margin-bottom: 20px;
+        .image {
+            position: relative;
+            top: 0px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

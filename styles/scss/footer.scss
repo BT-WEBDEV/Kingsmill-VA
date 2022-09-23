@@ -1,0 +1,224 @@
+#footer {
+    // margin-top: 20px;
+    .logos-wrap {
+        padding: 50px 15px;
+
+        .logo {
+            img {
+                width: 270px;
+            }
+        }
+        .partner-logo {
+            margin-top: 30px;
+            img {
+                height: 120px;
+                margin: 0 10px;
+            }
+        }
+    }
+
+
+    .right-content {
+        padding: 30px 0px 15px 80px;
+        .item {
+            margin-bottom: 30px;
+        }
+        hr {
+            margin-top: 0px;
+            border-top: 2px solid rgba($color: white, $alpha: 0.7);
+            width: 200px;
+            margin-left: 0px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .footer-social {
+        margin-top: 15px;
+        a {
+            font-size: 22px;
+            margin-right: 27px;
+        }
+    }
+
+    #footer-menu {
+        li {
+            margin-bottom: 13px;
+            margin-top: 13px;
+        }
+        a {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+
+    .copyright {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
+
+.footer-blue {
+    .right-content {
+        background-color: $blue !important;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    #footer {
+        border-top: 3px solid $green;
+        .logos-wrap {
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+    
+            .logo {
+                img {
+                    width: 160px;
+                }
+            }
+            .partner-logo {
+                margin-top: 0px;
+                margin-left: 20px;
+                img {
+                    height: 50px;
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .right-content {
+            padding: 30px 0px 15px 0px;
+            .item {
+                margin-bottom: 20px;
+                font-size: 13px;
+            }
+            hr {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        .footer-social {
+            margin-top: 15px;
+            a {
+                font-size: 15px;
+                margin-right: 6px;
+            }
+        }
+
+        #footer-menu {
+            li {
+                margin-bottom: 7px;
+                margin-top: 7px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .copyright {
+            font-size: 11px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    #footer {
+        border-top: 3px solid $green;
+        .logos-wrap {
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .logo {
+                img {
+                    width: 180px;
+                }
+            }
+            .partner-logo {
+                margin-top: 0px;
+                margin-left: 20px;
+                img {
+                    height: 60px;
+                }
+            }
+        }
+
+        .right-content {
+            padding: 30px 30px 15px 30px;
+            .item {
+                font-size: 14px;
+            }
+            hr {
+                width: 60%;
+            }
+        }
+
+        .footer-social {
+            a {
+                font-size: 20px;
+                margin-right: 17px;
+            }
+        }
+
+        #footer-menu {
+            li {
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        }
+
+        .copyright {
+            font-size: 12px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    #footer {
+        .logos-wrap {
+            padding: 30px 15px;
+            .logo {
+                img {
+                    width: 90%;
+                }
+            }
+            .partner-logo {
+                margin-top: 20px;
+                img {
+                    height: 80px;
+                }
+            }
+        }
+
+        .right-content {
+            padding: 30px 40px 15px 40px;
+            .item {
+                font-size: 15px;
+            }
+            hr {
+                width: 70%;
+            }
+        }
+
+        .footer-social {
+            a {
+                font-size: 22px;
+                margin-right: 17px;
+            }
+        }
+
+        .copyright {
+            font-size: 12px;
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

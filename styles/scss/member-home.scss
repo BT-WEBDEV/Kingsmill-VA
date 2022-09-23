@@ -1,0 +1,63 @@
+.membership-list {
+    margin-bottom: 30px;
+    .header {
+        padding: 7px;
+        min-height: 86px;
+        display: flex;
+        .border {
+            border: 2px solid rgba($color: #ECC35D, $alpha: 1.0);
+            padding: 7px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .desc {
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        .price {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+        .custom-btn {
+            margin-top: 20px;
+            background-color: $blue;
+        }
+        .info {
+            height: 0px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        .member-open {
+            // position: absolute;
+            // bottom: 0;
+            // left: 15px;
+            // right: 15px;
+        }
+        .open-button {
+            text-align: center;
+            border-top: 1px solid $d-yellow;
+            margin-left: -15px;
+            margin-right: -15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            line-height: 0;
+            font-size: 40px;
+            color: $d-yellow;
+            i {
+                @include transition(all 0.7s ease);
+            }
+        }
+        .open {
+            height: auto;
+        }
+        .rotate {
+            transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+        }
+    }
+}

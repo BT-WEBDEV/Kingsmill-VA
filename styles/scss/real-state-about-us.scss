@@ -1,0 +1,34 @@
+.team-member {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .image {
+        height: 300px;
+    }
+    .title {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    .team-member {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

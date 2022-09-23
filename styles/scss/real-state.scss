@@ -1,0 +1,32 @@
+.event-list {
+    color: white;
+    background-color: $d-yellow;
+    padding: 10px;
+    margin-bottom: 30px;
+    .content {
+        padding: 10px 15px;
+        border: 1px solid rgba($color: white, $alpha: 0.5);
+    }
+    .date {
+        font-size: 12px;
+        i {
+            margin-right: 4px;
+        }
+    }
+    h6 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .details {
+        font-size: 12px;
+        i {
+            margin-right: 4px;
+        }
+    }
+}
+
+#real-state-map {
+    iframe {
+        margin-bottom: -6px;
+    }
+}
