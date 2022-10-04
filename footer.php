@@ -48,7 +48,7 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 
 						<div class="item">
 							<hr>
-							<h4>CONTACT</h4>
+							<h4>CONTACT US</h4>
 							<div>
 								<span class="font-weight-medium mr-1">OFFICE:</span> <a href="tel:1-800-392-0026"
 									class="text-white">800.392.0026</a>

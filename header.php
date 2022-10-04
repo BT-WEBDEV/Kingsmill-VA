@@ -83,7 +83,11 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 	<a class="skip-main" href="#primary">Skip to main content</a>
 	<div id="page" class="site">
 		<header id="masthead" class="site-header <?php echo $header_color; ?>">
+			<?php if (strpos($_SERVER['REQUEST_URI'], "events") !== false) : ?>
+			<nav class="navbar fixed-top navbar-expand-lg custom-navbar" style="background-color: rgba(0,0,0,.8);">
+			<?php else : ?>
 			<nav class="navbar fixed-top navbar-expand-lg custom-navbar">
+			<?php endif;?>
 				<h1 class="outline">Main Navigation</h1>
 				<div id="secondary-nav">
 					<div class="d-flex align-items-center justify-content-end justify-content-md-between">
@@ -135,8 +139,7 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 							</ul>
 						</div>
 						<div>
-							<a href="/member-portal" class="custom-link">Membership</a>
-							<a href="" class="font-weight-medium custom-link phone"><img
+							<a href="tel:18003920026" class="font-weight-medium custom-link phone"><img
 									src="<?php echo get_template_directory_uri()."/images/icons/phone.svg" ?>" alt="">
 								800.392.0026</a>
 						</div>
