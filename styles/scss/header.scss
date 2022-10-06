@@ -234,12 +234,12 @@
 		}
 	}
 
-	.ft-booking-button-app {
+	.ft-booking-button { 
 		position: absolute;
 		top: 55px;
 		right: 30px;
 
-		.ft-btn {
+		.ft-btn-default {
 			background: transparent;
 			border: 2px solid white;
 			color: white;
@@ -274,8 +274,8 @@
 		}
 	}
 
-	.ft-booking-button-app {
-		.ft-btn {
+	.ft-booking-button {
+		.ft-btn-default {
 			font-size: 11px;
 		}
 	}
@@ -288,7 +288,7 @@
 }
 
 .static-booknow {
-	.ft-booking-button-app .ft-btn {
+	.ft-booking-button .ft-btn-default {
 		position: static !important;
 	}
 }
@@ -507,11 +507,11 @@
 			text-align: right;
 		}
 
-		.ft-booking-button-app {
+		.ft-booking-button {
 			position: static;
 			padding-right: 15px;
 
-			.ft-btn {
+			.ft-btn-default {
 				position: static;
 				font-size: 8px;
 				padding: 7px 8px;

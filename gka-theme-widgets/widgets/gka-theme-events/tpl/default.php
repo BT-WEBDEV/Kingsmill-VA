@@ -15,8 +15,15 @@
                         'post_status' => 'publish',
                         'orderby' => 'date',
                         'order' => 'DESC',
-                        'posts_per_page' => $total_post,
-                        'cat' => $category
+                        'posts_per_page' => $total_post, 
+                        'tax_query' => array(
+                            array(
+                                'taxonomy' => 'tribe_events_cat',
+                                'field' => 'slug',
+                                'terms' => 'members-only',
+                            ),
+                        ) 
+                        //'cat' => $categories, 
                     ); 
                     $blog = new WP_Query($args);
 

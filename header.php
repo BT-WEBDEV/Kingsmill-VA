@@ -83,7 +83,7 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 	<a class="skip-main" href="#primary">Skip to main content</a>
 	<div id="page" class="site">
 		<header id="masthead" class="site-header <?php echo $header_color; ?>">
-			<?php if (strpos($_SERVER['REQUEST_URI'], "events") !== false) : ?>
+			<?php if (strpos($_SERVER['REQUEST_URI'], "events") !== false || strpos($_SERVER['REQUEST_URI'], "event") !== false) : ?>
 			<nav class="navbar fixed-top navbar-expand-lg custom-navbar" style="background-color: rgba(0,0,0,.8);">
 			<?php else : ?>
 			<nav class="navbar fixed-top navbar-expand-lg custom-navbar">
