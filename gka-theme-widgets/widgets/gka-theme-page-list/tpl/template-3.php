@@ -1,6 +1,6 @@
 <div id="<?php echo $section_id ?>" class="gka-theme-page-list" style="background-color: <?php echo $container_color; ?>">
     <div class="gka-theme-page-list-template-3 container-fluid p-default">
-        <h1 class="text-center mb-header">Golf Packages</h1>
+        <h1 class="text-center mb-header">Kingsmill Resort Packages</h1>
         <div class="row">
             <?php foreach ($pages as $key => $page) { ?>
             <div class="col-sm-6 col-md-4 col-xl-3">
