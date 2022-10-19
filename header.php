@@ -148,12 +148,11 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 				<div class="container-fluid">
 					<!-- Navbar brand -->
 					<a class="navbar-brand order-2 order-lg-1 mobile-col" href="/">
-						<?php if(($post->post_parent == 17 || $post->ID == 17) 
-								|| ($post->post_parent == 19 || $post->ID == 19) 
-								|| ($post->post_parent == 183 || $post->ID == 183) 
-								|| ($post->post_parent == 226 || $post->ID == 226)) { ?>
+						<?php if(($post->post_parent == 183 || $post->ID == 183) 
+								|| ($post->post_parent == 226 || $post->ID == 226)) {
+						?>
 						<img id="logo" class="logo resort_logo"
-							src="<?php echo (get_header_image()) ? get_header_image() : get_template_directory_uri()."/images/Kingsmill_logo.svg"; ?>"
+							src="<?php echo (get_header_image()) ? get_header_image() : get_template_directory_uri()."/images/club-logo-white.png"; ?>"
 							alt="Logo">
 						<?php } else { ?>
 						<img id="logo" class="logo"

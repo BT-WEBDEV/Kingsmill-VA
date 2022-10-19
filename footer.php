@@ -22,9 +22,16 @@ if($post->post_parent == 183 || $post->ID == 183 || $post->ID == 226) {
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-3 align-self-center logos-wrap">
-				<div class="text-center logo">
-					<img src="<?php echo get_template_directory_uri()."/images/Kingsmill_logo.svg" ?>" alt="">
-				</div>
+				<?php if(($post->post_parent == 183 || $post->ID == 183) 
+					|| ($post->post_parent == 226 || $post->ID == 226)) { ?>
+					<div class="text-center logo">
+						<img src="<?php echo get_template_directory_uri()."/images/kingsmill-club-footer.png" ?>" alt="">
+					</div>
+				<?php } else { ?> 
+					<div class="text-center logo">
+						<img src="<?php echo get_template_directory_uri()."/images/Kingsmill_logo.svg" ?>" alt="">
+					</div>
+				<?php } ?> 
 				<div class="d-lg-flex justify-content-center partner-logo">
 					<div>
 						<img src="<?php echo get_template_directory_uri()."/images/alhi-logo.png" ?>" alt="">
