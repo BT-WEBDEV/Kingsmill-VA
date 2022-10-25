@@ -313,6 +313,21 @@ function get_post_primary_category($post_id, $term='category', $return_all_categ
 
 
 
+function mepr_add_some_tabs($user) {
+	?>
+	  <span class="mepr-nav-item prem-support <?php MeprAccountHelper::active_nav('referral-rewards'); ?>">
+		<!-- KEEPS THE USER ON THE ACCOUNT PAGE -->
+		<a href="/member-portal/account/?action=referral-rewards">Referral Rewards</a>
+	  </span>
+	<?php
+  }
+add_action('mepr_account_nav', 'mepr_add_some_tabs');
 
+function mepr_add_tabs_content($action) {
+	if($action == 'referral-rewards'): //Update this 'premium-support' to match what you put above (?action=premium-support)
 
- 
+		require(get_template_directory() . '/template-parts/member-referral-rewards-memberpress.php');
+
+	endif;
+  }
+add_action('mepr_account_nav_content', 'mepr_add_tabs_content');

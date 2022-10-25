@@ -60,6 +60,7 @@ if(!get_user_meta($mepr_current_user->ID, "mepr_member_number", true)) {
         <?php MeprHooks::do_action('mepr_account_nav', $mepr_current_user); ?>
         <span class="mepr-nav-item"><a href="<?php echo MeprUtils::logout_url(); ?>"
                 id="mepr-account-logout"><?php _ex('Logout', 'ui', 'memberpress'); ?></a></span>
+        
     </div>
 </div>
 

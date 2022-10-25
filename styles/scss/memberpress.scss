@@ -123,3 +123,11 @@
 .mepr_error {
     margin: 0 !important;
 }
+
+@media (max-width: $screen-sm) {
+    .memberpress-account-container {
+        .entry-content {
+            flex-direction: column; 
+        }
+    }
+}

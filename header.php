@@ -20,7 +20,6 @@
 	<meta name="Owner" content="GKA Theme" />
 	<meta name="Copyright" content="Copyright &copy; GKA Theme" />
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<?php wp_head(); ?>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png"
 		sizes="300x300">
@@ -32,6 +31,11 @@
 		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
 		rel="stylesheet">
+	
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+	<!-- MDB -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
 
 	<!-- Flip.to - Website Integration -->
 	<script async src="https://integration.flip.to/KSV2M8K"></script>
@@ -63,6 +67,10 @@
 		pintrk('load', '2613278023162');
 		pintrk('page');
 	</script>
+	
+	<!-- INSERTS CUSTOM SCRIPTS --> 
+	<?php wp_head(); ?>
+
 	<noscript>
 		<img height="1" width="1" style="display:none;" alt=""
 			src="https://ct.pinterest.com/v3/?tid=2613278023162&noscript=1" />
