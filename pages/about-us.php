@@ -49,6 +49,7 @@ get_header();
 
         <!-- Additional Content --> 
         <style> 
+            /* TESTIMONIAL STYLING  */
             .swiper-slide {
                 height: auto;
                 align-self: stretch;  
@@ -59,6 +60,7 @@ get_header();
             .gka-theme-testimonials .testimonials-list .content {
                 display: flex; 
                 flex-direction: column; 
+                padding: 55px 50px; 
             }
             .testimonial-content {
                 margin-top: 20px; 
@@ -73,6 +75,16 @@ get_header();
             .empty-box {
                 margin-top: auto; 
             }
+
+            /* SLIDER|CONTENT WIDGET STYLING  */
+            .gka-theme-2cols-slider-text {
+                background-color: #0356441A; 
+            }
+
+            .smooth-scroll {
+                margin-top: 20px; 
+            }
+
         </style> 
             <div>
                 <div class="gka-theme-testimonials container-fluid p-default">

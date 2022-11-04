@@ -15,7 +15,6 @@
             font-weight: 700;
             color: black;
             padding: 0;
-            height: 100%;
             display: flex;
 
             span {
@@ -62,10 +61,29 @@
             font-weight: bold;
         }
     }
+
+    .accordion-button:after {
+        display: none; 
+    }
+
 }
 
 .wedding-package-pricing {
     padding-bottom: 40px;
+
+
+    .accordion-button {
+        justify-content: space-between;
+        background: 0 !important;  
+    } 
+    
+    .accordion-button:after {
+        display: none; 
+    }
+    
+    #wedding-price-accordion .card i {
+        color: #d1942a; 
+    }
 
     .image-wrap {
         background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50px, rgba($color: #ECC35D, $alpha: .3) 50px);
@@ -90,6 +108,24 @@
         -ms-flex: 0 0 calc(100% - 250px);
         flex: 0 0 calc(100% - 250px);
         max-width: calc(100% - 250px);
+    }
+
+    @media (max-width: $screen-sm) {
+        .column-container {
+            flex-direction: column !important;  
+        }
+
+        .left-col {
+            -ms-flex: 0 0 0px; 
+            flex: 0 0 0px;
+            max-width: 100%;
+        }
+    
+        .right-col {
+            -ms-flex: 0 0 calc(100% - 0px);
+            flex: 0 0 calc(100% - 0px);
+            max-width: calc(100% - 0px);
+        }
     }
 }
 

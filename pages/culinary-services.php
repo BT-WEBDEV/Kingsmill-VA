@@ -50,38 +50,84 @@ get_header();
         <!-- #Main Content -->
 
         <!-- Additional Content -->
+
+
+        <!-- WEDDING MENU --> 
         <section>
             <div class="container-fluid px-0 pt-default">
                 <div class="text-center mb-header">
                     <h1>Wedding Menu</h1>
                 </div>
-                <div class="krr-tab-pills">
-                    <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab"
-                                aria-controls="pills-1" aria-selected="true"><span>RECEPTION ITEMS</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab"
-                                aria-controls="pills-2" aria-selected="false"><span>KINGSMILL PLATED</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab"
-                                aria-controls="pills-3" aria-selected="false"><span>JAMES RIVER BUFFET</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab"
-                                aria-controls="pills-4" aria-selected="false"><span>RIVERVIEW ACTION STATIONS</span></a>
-                        </li>
-                    </ul>
+
+                <!-- Pills navs -->
+                <div class="container-fluid px-0">
+                    <div class="krr-tab-pills">
+                        <ul class="nav nav-pills justify-content-center" id="ex1" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a
+                                class="nav-link active"
+                                id="ex1-tab-1"
+                                data-mdb-toggle="pill"
+                                href="#ex1-pills-1"
+                                role="tab"
+                                aria-controls="ex1-pills-1"
+                                aria-selected="true"
+                                ><span>RECEPTION ITEMS</span></a
+                                >
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                class="nav-link"
+                                id="ex1-tab-2"
+                                data-mdb-toggle="pill"
+                                href="#ex1-pills-2"
+                                role="tab"
+                                aria-controls="ex1-pills-2"
+                                aria-selected="false"
+                                ><span>KINGSMILL PLATED</span></a
+                                >
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                class="nav-link"
+                                id="ex1-tab-3"
+                                data-mdb-toggle="pill"
+                                href="#ex1-pills-3"
+                                role="tab"
+                                aria-controls="ex1-pills-3"
+                                aria-selected="false"
+                                ><span>JAMES RIVER BUFFET</span></a
+                                >
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a
+                                class="nav-link"
+                                id="ex1-tab-4"
+                                data-mdb-toggle="pill"
+                                href="#ex1-pills-4"
+                                role="tab"
+                                aria-controls="ex1-pills-4"
+                                aria-selected="false"
+                                ><span>RIVERVIEW ACTION STATIONS</span></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
+            <!-- Pills content -->
             <div class="container-fluid bg-l-green">
                 <div class="wedding-menu-tab-content">
                     <div class="tab-content pt-3 px-0" id="pills-wedding-menu-content">
 
-                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel"
-                            aria-labelledby="pills-1-tab">
+                        <!-- PILLS CONTENT 1 --> 
+                        <div 
+                        class="tab-pane fade show active" 
+                        id="ex1-pills-1" 
+                        role="tabpanel"
+                        aria-labelledby="ex1-pills-1"
+                        >
                             <div class="gka-theme-2cols-slider-text">
                                 <div class="row">
                                     <div class="col-lg-6 p-0 align-self-center">
@@ -154,7 +200,13 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                        <!-- PILLS CONTENT 2 --> 
+                        <div 
+                        class="tab-pane fade" 
+                        id="ex1-pills-2" 
+                        role="tabpanel" 
+                        aria-labelledby="ex1-pills-2"
+                        >
                             <div class="gka-theme-2cols-slider-text">
                                 <div class="row">
                                     <div class="col-lg-6 p-0 align-self-center">
@@ -226,7 +278,13 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                        <!-- PILLS CONTENT 3 --> 
+                        <div 
+                        class="tab-pane fade" 
+                        id="ex1-pills-3" 
+                        role="tabpanel" 
+                        aria-labelledby="ex1-pills-3"
+                        >
                             <div class="gka-theme-2cols-slider-text">
                                 <div class="row">
                                     <div class="col-lg-6 p-0 align-self-center">
@@ -313,7 +371,13 @@ get_header();
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                        <!-- PILLS CONTENT 4 --> 
+                        <div 
+                        class="tab-pane fade" 
+                        id="ex1-pills-4" 
+                        role="tabpanel" 
+                        aria-labelledby="ex1-pills-4"
+                        >
                             <div class="gka-theme-2cols-slider-text">
                                 <div class="row">
                                     <div class="col-lg-6 p-0 align-self-center">
@@ -403,12 +467,13 @@ get_header();
                 </div>
             </div>
         </section>
-
+        
+        <!-- DINING PACKAGES ACCORDIAN --> 
         <section class="wedding-package-pricing py-default">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <div class="d-flex flex-wrap justify-content-right">
+                        <div class="d-flex flex-wrap justify-content-right column-container">
                             <div class="left-col image-wrap">
                                 <div class="image view">
                                     <img src="<?php echo (get_the_post_thumbnail_url($post->ID, 'large')) ? : get_template_directory_uri()."/images/culinary-services/Pettus-House-Terrace-Dinner-1.jpg"; ?>"
@@ -423,25 +488,37 @@ get_header();
                                         <div class="accordion md-accordion" id="wedding-price-accordion" role="tablist"
                                             aria-multiselectable="true">
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card 1 -->
                                             <div class="card">
 
                                                 <!-- Card header -->
-                                                <div class="card-header" role="tab" id="headingOne1">
-                                                    <a data-toggle="collapse" data-parent="#wedding-price-accordion"
-                                                        href="#collapseOne1" aria-expanded="true"
-                                                        aria-controls="collapseOne1">
+                                                <div 
+                                                class="card-header" 
+                                                role="tab" 
+                                                id="headingOne1"
+                                                >
+                                                    <a 
+                                                    class="accordion-button"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#collapseOne"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseOne"
+                                                    >
                                                         <h5 class="mb-0">
-                                                            Kingsmill Plated <i
-                                                                class="fas fa-angle-down rotate-icon"></i>
+                                                            Kingsmill Plated
                                                         </h5>
+                                                        <i class="fas fa-angle-down rotate-icon"></i>
                                                     </a>
                                                 </div>
 
                                                 <!-- Card body -->
-                                                <div id="collapseOne1" class="collapse show" role="tabpanel"
-                                                    aria-labelledby="headingOne1"
-                                                    data-parent="#wedding-price-accordion">
+                                                <div 
+                                                id="collapseOne" 
+                                                class="accordion-collapse collapse show" 
+                                                aria-labelledby="headingOne" 
+                                                data-mdb-parent="#wedding-price-accordion"
+                                                >
                                                     <div class="card-body">
                                                         <div>
                                                             3 Passed Hors d'oeuvres <br>
@@ -455,25 +532,33 @@ get_header();
                                             </div>
                                             <!-- Accordion card -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card 2 -->
                                             <div class="card">
 
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="headingTwo2">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#wedding-price-accordion" href="#collapseTwo2"
-                                                        aria-expanded="false" aria-controls="collapseTwo2">
+                                                    <a 
+                                                    class="accordion-button"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#collapseTwo"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseTwo"
+                                                    >
                                                         <h5 class="mb-0">
-                                                            James River Buffet <i
-                                                                class="fas fa-angle-down rotate-icon"></i>
+                                                            James River Buffet
                                                         </h5>
+                                                        <i class="fas fa-angle-down rotate-icon"></i>
                                                     </a>
                                                 </div>
 
                                                 <!-- Card body -->
-                                                <div id="collapseTwo2" class="collapse" role="tabpanel"
-                                                    aria-labelledby="headingTwo2"
-                                                    data-parent="#wedding-price-accordion">
+                                                <div 
+                                                id="collapseTwo" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="headingTwo" 
+                                                data-mdb-parent="#wedding-price-accordion"
+                                                >
                                                     <div class="card-body">
                                                         <div>
                                                             3 Passed Hors d'oeuvres <br>
@@ -486,25 +571,33 @@ get_header();
                                             </div>
                                             <!-- Accordion card -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card 3 -->
                                             <div class="card">
 
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="headingThree3">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#wedding-price-accordion" href="#collapseThree3"
-                                                        aria-expanded="false" aria-controls="collapseThree3">
+                                                    <a 
+                                                    class="accordion-button"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#collapseThree"
+                                                    aria-expanded="true"
+                                                    aria-controls="collapseThree"
+                                                    >
                                                         <h5 class="mb-0">
-                                                            Riverview Action Stations <i
-                                                                class="fas fa-angle-down rotate-icon"></i>
+                                                            Riverview Action Stations
                                                         </h5>
+                                                        <i class="fas fa-angle-down rotate-icon"></i>
                                                     </a>
                                                 </div>
 
                                                 <!-- Card body -->
-                                                <div id="collapseThree3" class="collapse" role="tabpanel"
-                                                    aria-labelledby="headingThree3"
-                                                    data-parent="#wedding-price-accordion">
+                                                <div 
+                                                id="collapseThree" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="headingThree" 
+                                                data-mdb-parent="#wedding-price-accordion"
+                                                >
                                                     <div class="card-body">
                                                         <div>
                                                             3 Passed Hors d'oeuvres <br>
@@ -536,7 +629,9 @@ get_header();
                 </div>
             </div>
         </section>
+        
 
+        <!-- ALCOHOL LISTINGS --> 
         <section>
             <div class="container-fluid px-0 pt-default">
                 <div class="text-center mb-header">
@@ -544,43 +639,74 @@ get_header();
                         alt="Drinks">
                     <h1>Bar Selections</h1>
                 </div>
+                <!-- Pills navs -->
                 <div class="krr-tab-pills">
-                    <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills justify-content-center" id="ex1" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-5-tab" data-toggle="pill" href="#pills-5" role="tab"
-                                aria-controls="pills-5" aria-selected="true"><span>HOST BAR</span></a>
+                            <a 
+                            class="nav-link active"
+                            id="ex1-tab-5"
+                            data-mdb-toggle="pill"
+                            href="#ex1-pills-5"
+                            role="tab"
+                            aria-controls="ex1-pills-5"
+                            aria-selected="true"
+                            >
+                            <span>HOST BAR</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-6-tab" data-toggle="pill" href="#pills-6" role="tab"
-                                aria-controls="pills-6" aria-selected="false"><span>CASH BAR</span></a>
+                            <a 
+                            class="nav-link"
+                            id="ex1-tab-6"
+                            data-mdb-toggle="pill"
+                            href="#ex1-pills-6"
+                            role="tab"
+                            aria-controls="ex1-pills-6"
+                            aria-selected="false" 
+                            >
+                            <span>CASH BAR</span></a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="container-fluid">
                 <div class="wedding-menu-tab-content">
+                    <!-- PILLS CONTENT 5 --> 
                     <div class="tab-content pt-3 px-0" id="pills-bar-content">
-                        <div class="tab-pane fade show active" id="pills-5" role="tabpanel"
-                            aria-labelledby="pills-5-tab">
+                        <div 
+                        class="tab-pane fade show active" 
+                        id="ex1-pills-5" 
+                        role="tabpanel"
+                        aria-labelledby="ex1-pills-5"
+                        >
                             <div>
                                 <div class="text-center mb-3">
                                     All prices are subject to 11% tax and a 24% gratuity.
                                 </div>
                                 <div>
                                     <!--Accordion wrapper-->
-                                    <div class="accordion md-accordion bar-accordion" id="bar-accordion1" role="tablist"
-                                        aria-multiselectable="true">
+                                    <div 
+                                    class="accordion md-accordion bar-accordion" 
+                                    id="bar-accordion1" 
+                                    role="tablist"
+                                    aria-multiselectable="true">
 
                                         <div class="row">
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card HOUSE WINE -->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading1">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse1"
-                                                            aria-controls="collapse1">
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse1"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse1"
+
+                                                        >
 
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
@@ -594,8 +720,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse1" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading1" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse1" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading1" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Chardonnay</li>
@@ -607,16 +737,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!-- House Wine END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card PREMIUM WINE-->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading2">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse2"
-                                                            aria-controls="collapse2">
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse2"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse2"
+                                                        >
 
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
@@ -630,8 +765,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse2" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading2" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse2" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading2" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Kris, Pinot Grigio</li>
@@ -645,16 +784,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!--PREMIUM WINE END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card ULTRA-PREMIUM 1 -->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading3">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse3"
-                                                            aria-controls="collapse3">
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse3"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse3"
+                                                        >
 
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
@@ -668,13 +812,57 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse3" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading3" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse3" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading3" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>King Estate, Pinot Gris</li>
                                                                 <li>Whitehaven, Sauvignon Blanc</li>
                                                                 <li>Sonoma-Cutrer, Chardonnay</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- ULTRA-PREMIUM WINE 1 END -->
+
+                                            <!-- Accordion card ULTRA-PREMIUM WINE 2 -->
+                                            <div class="col-md-6 card-col">
+                                                <div class="card">
+                                                    <!-- Card header -->
+                                                    <div class="card-header" role="tab" id="heading4">
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse4"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse4"
+                                                        >
+                                                            <div class="header">
+                                                                <h6 class="mb-0 col-6">
+                                                                    ULTRA-PREMIUM WINE
+                                                                </h6>
+                                                                <i class="fas fa-caret-down rotate-icon col-3"></i>
+                                                                <div class="type col-3 text-right">
+                                                                    Tier 3
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- Card body -->
+                                                    <div 
+                                                    id="barCollapse4" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading4" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
+                                                        <div class="card-body">
+                                                            <ul>
                                                                 <li>Franciscan, Merlot</li>
                                                                 <li>Robert Mondavi, Pinot Noir</li>
                                                                 <li>Louis Martini, Cabernet Sauvignon</li>
@@ -683,47 +871,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!-- END ULTRA-PREMIUM WINE 2  -->
 
-                                            <!-- Accordion card -->
-                                            <div class="col-md-6 card-col">
-                                                <div class="card">
-                                                    <!-- Card header -->
-                                                    <div class="card-header" role="tab" id="heading4">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse4"
-                                                            aria-controls="collapse4">
-
-                                                            <div class="header">
-                                                                <h6 class="mb-0 col-6">
-                                                                    ULTRA-PREMIUM WINE
-                                                                </h6>
-                                                                <i class="fas fa-caret-down rotate-icon col-3"></i>
-                                                                <div class="type col-3 text-right">
-                                                                    Tier 3
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <!-- Card body -->
-                                                    <div id="collapse4" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading4" data-parent="#bar-accordion1">
-                                                        <div class="card-body">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Accordion card -->
-
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card DOMESTIC BEER -->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading5">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse5"
-                                                            aria-controls="collapse5">
-
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse5"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse5"
+                                                        >
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
                                                                     DOMESTIC BEER
@@ -736,8 +898,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse5" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading5" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse5" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading5" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Bud Light</li>
@@ -749,17 +915,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!-- DOMESTIC BEER END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card PREMIUM BEER-->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading6">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse6"
-                                                            aria-controls="collapse6">
-
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse6"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse6"
+                                                        >
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
                                                                     PREMIUM BEER
@@ -772,8 +942,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse6" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading6" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse6" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading6" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Sam Adams</li>
@@ -785,17 +959,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!-- PREMIUM BEER END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card HOUSE LIQUOR -->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading7">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse7"
-                                                            aria-controls="collapse7">
-
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse7"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse7"
+                                                        >
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
                                                                     HOUSE LIQUOR
@@ -808,8 +986,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse7" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading7" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse7" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading7" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Svedka Vodka</li>
@@ -824,17 +1006,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!--HOUSE LIQUOR END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card PREMIUM LIQUOR -->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading8">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse8"
-                                                            aria-controls="collapse8">
-
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse8"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse8"
+                                                        >
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
                                                                     PREMIUM LIQUOR
@@ -847,8 +1033,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse8" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading8" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse8" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading8" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Tito’s Vodka</li>
@@ -863,16 +1053,21 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!--  PREMIUM LIQUOR END -->
 
-                                            <!-- Accordion card -->
+                                            <!-- Accordion card ULTRA-PREMIUM-->
                                             <div class="col-md-6 card-col">
                                                 <div class="card">
                                                     <!-- Card header -->
                                                     <div class="card-header" role="tab" id="heading9">
-                                                        <a class="collapsed" data-toggle="collapse"
-                                                            data-parent="#bar-accordion1" href="#collapse9"
-                                                            aria-controls="collapse9">
+                                                        <a 
+                                                        class="collapsed"
+                                                        type="button"
+                                                        data-mdb-toggle="collapse"
+                                                        data-mdb-target="#barCollapse9"
+                                                        aria-expanded="false"
+                                                        aria-controls="barCollapse9"
+                                                        >
                                                             <div class="header">
                                                                 <h6 class="mb-0 col-6">
                                                                     ULTRA-PREMIUM
@@ -885,8 +1080,12 @@ get_header();
                                                         </a>
                                                     </div>
                                                     <!-- Card body -->
-                                                    <div id="collapse9" class="collapse" role="tabpanel"
-                                                        aria-labelledby="heading9" data-parent="#bar-accordion1">
+                                                    <div 
+                                                    id="barCollapse9" 
+                                                    class="accordion-collapse collapse" 
+                                                    aria-labelledby="heading9" 
+                                                    data-mdb-parent="#bar-accordion1"
+                                                    >
                                                         <div class="card-body">
                                                             <ul>
                                                                 <li>Grey Goose Vodka</li>
@@ -900,7 +1099,7 @@ get_header();
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- Accordion card -->
+                                            <!-- ULTRA-PREMIUM END -->
 
                                         </div>
                                     </div>
@@ -908,7 +1107,13 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="pills-6-tab">
+                        <!-- PILLS CONTENT 6 --> 
+                        <div 
+                        class="tab-pane fade" 
+                        id="ex1-pills-6" 
+                        role="tabpanel"
+                        aria-labelledby="ex1-pills-6"
+                        >
                             <div class="text-center mb-3">
                                 Subject to a bartender fee of $125.00 per bartender, per 100 guests plus tax.
                             </div>
@@ -919,15 +1124,19 @@ get_header();
 
                                     <div class="row">
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card HOUSE WINE-->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading10">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse10"
-                                                        aria-controls="collapse10">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse10"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse10"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 HOUSE WINE
@@ -940,8 +1149,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse10" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading10" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse10" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading10" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Prosecco - $10</li>
@@ -954,17 +1167,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- HOUSE WINE END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card DOMESTIC BEER-->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading11">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse11"
-                                                        aria-controls="collapse11">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse11"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse11"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 DOMESTIC BEER
@@ -977,8 +1194,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse11" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading11" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse11" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading11" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Bud Light</li>
@@ -990,17 +1211,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- DOMESTIC BEER END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card HOUSE LIQUOR-->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading12">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse12"
-                                                        aria-controls="collapse12">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse12"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse12"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 HOUSE LIQUOR
@@ -1013,11 +1238,15 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse12" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading12" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse12" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading12" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
-                                                            <li>SSvedka Vodka</li>
+                                                            <li>Svedka Vodka</li>
                                                             <li>Jim Beam Bourbon</li>
                                                             <li>Beefeater Gin</li>
                                                             <li>Bacardi Silver Rum</li>
@@ -1029,17 +1258,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- HOUSE LIQUOR END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card PREMIUM WINE-->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading13">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse13"
-                                                        aria-controls="collapse13">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse13"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse13"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 PREMIUM WINE
@@ -1052,8 +1285,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse13" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading13" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse13" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading13" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Kris, Pinot Grigio - $10</li>
@@ -1067,16 +1304,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- PREMIUM WINE END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card PREMIUM BEER -->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading14">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse14"
-                                                        aria-controls="collapse14">
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse14"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse14"
+                                                    >
 
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
@@ -1090,8 +1332,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse14" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading14" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse14" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading14" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Sam Adams</li>
@@ -1103,17 +1349,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- PREMIUM BEER END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card PREMIUM LIQUOR -->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading15">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse15"
-                                                        aria-controls="collapse15">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse15"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse15"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 PREMIUM LIQUOR
@@ -1126,8 +1376,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse15" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading15" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse15" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading15" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Tito’s Vodka</li>
@@ -1142,17 +1396,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- PREMIUM LIQUOR END-->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card ULTRA-PREMIUM WINE -->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading16">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse16"
-                                                        aria-controls="collapse16">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse16"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse16"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 ULTRA-PREMIUM WINE
@@ -1165,8 +1423,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse16" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading16" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse16" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading16" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>King Estate, Pinot Gris - $13 </li>
@@ -1180,17 +1442,21 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- ULTRA-PREMIUM WINE END -->
 
-                                        <!-- Accordion card -->
+                                        <!-- Accordion card ULTRA-PREMIUM -->
                                         <div class="col-md-6 card-col">
                                             <div class="card">
                                                 <!-- Card header -->
                                                 <div class="card-header" role="tab" id="heading17">
-                                                    <a class="collapsed" data-toggle="collapse"
-                                                        data-parent="#bar-accordion2" href="#collapse17"
-                                                        aria-controls="collapse17">
-
+                                                    <a 
+                                                    class="collapsed"
+                                                    type="button"
+                                                    data-mdb-toggle="collapse"
+                                                    data-mdb-target="#barCollapse17"
+                                                    aria-expanded="false"
+                                                    aria-controls="barCollapse17"
+                                                    >
                                                         <div class="header">
                                                             <h6 class="mb-0 col-6">
                                                                 ULTRA-PREMIUM
@@ -1203,8 +1469,12 @@ get_header();
                                                     </a>
                                                 </div>
                                                 <!-- Card body -->
-                                                <div id="collapse17" class="collapse" role="tabpanel"
-                                                    aria-labelledby="heading17" data-parent="#bar-accordion2">
+                                                <div 
+                                                id="barCollapse17" 
+                                                class="accordion-collapse collapse" 
+                                                aria-labelledby="heading17" 
+                                                data-mdb-parent="#bar-accordion2"
+                                                >
                                                     <div class="card-body">
                                                         <ul>
                                                             <li>Grey Goose Vodka</li>
@@ -1218,7 +1488,7 @@ get_header();
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- Accordion card -->
+                                        <!-- ULTRA-PREMIUM END -->
 
                                     </div>
                                 </div>
@@ -1235,30 +1505,54 @@ get_header();
                 </div>
         </section>
 
+        <!-- GUIDELINES NEW --> 
         <section>
             <div class="container-fluid px-0 pt-default">
                 <div class="text-center mb-header">
                     <h1>Guidelines</h1>
                 </div>
                 <div class="krr-tab-pills">
-                    <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills justify-content-center" id="ex1" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-7-tab" data-toggle="pill" href="#pills-7" role="tab"
-                                aria-controls="pills-7" aria-selected="true"><span>WEDDING</span></a>
+                            <a 
+                            class="nav-link active"
+                            id="ex1-tab-7"
+                            data-mdb-toggle="pill"
+                            href="#ex1-pills-7"
+                            role="tab"
+                            aria-controls="ex1-pills-7"
+                            aria-selected="true"
+                            >
+                                <span>WEDDING</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-8-tab" data-toggle="pill" href="#pills-8" role="tab"
-                                aria-controls="pills-8" aria-selected="false"><span>VENUE</span></a>
+                            <a 
+                            class="nav-link"
+                            id="ex1-tab-8"
+                            data-mdb-toggle="pill"
+                            href="#ex1-pills-8"
+                            role="tab"
+                            aria-controls="ex1-pills-8"
+                            aria-selected="false"
+                            >
+                                <span>VENUE</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
 
+            <!-- PILL CONTENT --> 
             <div class="container-fluid p-default">
                 <div class="wedding-menu-tab-content">
                     <div class="tab-content pt-3 px-0" id="pills-bar-content">
-                        <div class="tab-pane fade show active" id="pills-7" role="tabpanel"
-                            aria-labelledby="pills-7-tab">
+                        <div 
+                        class="tab-pane fade show active" 
+                        id="ex1-pills-7" 
+                        role="tabpanel"
+                        aria-labelledby="ex1-pills-7"
+                        >
                             <div class="row">
                                 <div class="col-md-6">
                                     <div>
@@ -1284,7 +1578,12 @@ get_header();
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-8" role="tabpanel" aria-labelledby="pills-8-tab">
+                        <div 
+                        class="tab-pane fade" 
+                        id="ex1-pills-8" 
+                        role="tabpanel"
+                        aria-labelledby="ex1-pills-8"
+                        >
                             <div>
                                 <p>
                                     Program Specification to include menu selections and audio visual needs are due to
@@ -1375,6 +1674,7 @@ get_header();
                 </div>
             </div>
         </section>
+
 
         <section class="gka-theme-form">
             <div class="contact-bg">
