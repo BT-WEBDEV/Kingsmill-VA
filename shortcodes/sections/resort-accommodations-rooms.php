@@ -18,7 +18,7 @@
                                 you’ll enjoy every minute of your stay.</p>
                         </div>
                         <div class="pt-2">
-                            <a href="https://kingsmillva.com/resort/accommodations/guest-rooms-condos/"
+                            <a href="/resort/accommodations/guest-rooms-condos/"
                                 class="text-green font-weight-bold underline d-flex align-items-center">LEARN
                                 MORE <img class="ml-2" width="22"
                                     src="<?php echo get_template_directory_uri()."/images/icons/arrow-square.svg" ?>"
@@ -45,7 +45,7 @@
                                 living at its finest as part of our exclusive Kingsmill community.</p>
                         </div>
                         <div class="pt-2">
-                            <a href="https://kingsmillva.com/resort/accommodations/cottages/"
+                            <a href="/resort/accommodations/cottages/"
                                 class="text-green font-weight-bold underline d-flex align-items-center">LEARN
                                 MORE <img class="ml-2" width="22"
                                     src="<?php echo get_template_directory_uri()."/images/icons/arrow-square.svg" ?>"
@@ -73,7 +73,7 @@
                                 created for a long-term comfortable resort stay.</p>
                         </div>
                         <div class="pt-2">
-                            <a href="https://kingsmillva.com/resort/accommodations/extended-stay/"
+                            <a href="/resort/accommodations/extended-stay/"
                                 class="text-green font-weight-bold underline d-flex align-items-center">LEARN
                                 MORE <img class="ml-2" width="22"
                                     src="<?php echo get_template_directory_uri()."/images/icons/arrow-square.svg" ?>"
@@ -83,9 +83,39 @@
                 </div>
             </div>
         </div>
+
+        <div class="accommodation-list">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 p-0 image-wrap image-wrap-reverse order-md-2">
+                    <div class="image z-depth-1">
+                        <img src="<?php echo get_template_directory_uri()."/images/accommodations/River-Condo.jpg" ?>"
+                            alt="" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-0 order-md-1">
+                    <div class="content">
+                        <h2 class="text-green">Pet Friendly Rooms</h2>
+                        <div>
+                            <p>At Kingsmill Resort, we're thrilled to welcome you and your furry friends with open arms and
+                                paws. As a pet-friendly property, we cater to your pets with the same level of care as any of
+                                our guests. 
+                            </p>
+                        </div>
+                        <div class="pt-2 ">
+                            <a href="/resort/accommodations/pet-friendly-rooms/"
+                                class="text-green font-weight-bold underline d-flex align-items-center">LEARN
+                                MORE <img class="ml-2" width="22"
+                                    src="<?php echo get_template_directory_uri()."/images/icons/arrow-square.svg" ?>"
+                                    alt="Arrow"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
-<section>
+<section class="d-none">
     <div class="container py-default">
         <div class="text-center">
             <img class="mb-2" width="90"

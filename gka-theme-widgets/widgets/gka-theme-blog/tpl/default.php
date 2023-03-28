@@ -50,7 +50,7 @@ $blog = new WP_Query($args);
             </div>
             <?php endwhile; wp_reset_postdata(); ?>
         </div>
-        <div class="text-center">
+        <div class="text-center d-none">
             <a href="" class="btn custom-btn">SEE ALL</a>
         </div>
     </div>
